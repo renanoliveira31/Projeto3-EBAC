@@ -15,32 +15,32 @@
     <title>Êxtase</title>
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top bg-dark" id="cabecalho">
+    <header class="navbar navbar-expand-lg sticky-top bg-dark" id="cabecalho header">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title text-warning"><span class="font text-warning">Ê</span>xtase</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-underline d-block d-md-flex">
+                <ul class="nav nav-underline d-block d-md-flex text-light">
                     <li class="nav-item fw-bold">
-                        <a href="#home" class="nav-link active font">Home</a>
+                        <a href="#home" class="nav-link active font text-light">Home</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#about" class="nav-link font">About Us</a>
+                        <a href="#about" class="nav-link font text-light">About Us</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#portifolio" class="nav-link font">Portifolio</a>
+                        <a href="#portifolio" class="nav-link font text-light">Portifolio</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#contact" class="nav-link font">Contact</a>
+                        <a href="#contact" class="nav-link font text-light">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="home" style="background-image: url('./img/home.png')">
+        <section id="home" class="section" style="background-image: url('./img/home.png')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9 ml-2 mt-5 mb-5">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="bg-dark">
+        <section id="about" class="bg-dark section">
             <div class="container">
                 <div class="row d-md-flex">
                     <div class="col-md-6 mt-3">
@@ -91,21 +91,109 @@
                             <div class="col-md-6">
                                 <h3 class="section-title mt-3 fs-5 mb-2">OUR MISSION</h3>
                                 <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos quia eos culpa tempora inventore  qui ut explicabo, mollitia, aliquam sunt sit voluptates quibusdam voluptatibus officia maiores!</p>
-                                <button type="button" class="btn section-title fs-5 align-text-start p-0">Read More</button>
+                                <button type="button" class="btn section-title fs-5 align-text-start p-0">
+                                    <a href="#">Read More</a></button>
                             </div>
                             <div class="col-md-6">
                                 <h3 class="section-title mt-3 fs-5 mb-2">OUR VISION</h3>
                                 <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt unde vel, laudantium debitis quis sit perferendis eum. Nihil ab, necessitatibus in culpa exercitationem quos aut vel quam architecto tempora?</p>
-                                <button type="button" class="btn section-title fs-5 align-text-start p-0">Read More</button>
+                                <button type="button" class="btn section-title fs-5 align-text-start p-0">
+                                    <a href="#">Read More</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="portifolio" class="section" style="background-color: #8173B2;">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center mt-5 fs-7" style="color: #E1FF30;">Our Portifolio</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-5 d-flex justify-content-center">
+                        <nav class="nav nav-pills nav-portifolio d-flex flex-column flex-md-row">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#High-Heels" class="fw-bold text-start nav-link">High Heels</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Sneakers" class="fw-bold text-start nav-link">Sneakers</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Flat-Sandals" class="fw-bold text-start nav-link">Flat Sandals</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Wedding-Flats" class="fw-bold text-start nav-link">Wedding Flats</button>
+                        </nav>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="tab-content mt-5">
+                            <div class="tab-pane active" id="High-Heels">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 text-center">
+                                        <img class="d-block mx-auto w-80" src="img/1.png" alt="Stiletto">
+                                        <h5 class="fw-bold text-center ">Stiletto</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/2.png" alt="Pump">
+                                        <h5 class="fw-bold text-center ">Pump</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/3.png" alt="High heel sandal">
+                                        <h5 class="fw-bold text-center">High heel sandal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane active" id="Sneakers">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 text-center">
+                                        <img class="d-block mx-auto w-80" src="img/4 (7).png" alt="Stiletto">
+                                        <h5 class="fw-bold text-center ">Street</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (8).png" alt="Pump">
+                                        <h5 class="fw-bold text-center ">Skate style</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (9).png" alt="High heel sandal">
+                                        <h5 class="fw-bold text-center">Old school</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane active" id="Flat-Sandals">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 text-center">
+                                        <img class="d-block mx-auto w-80" src="img/4 (4).png" alt="Stiletto">
+                                        <h5 class="fw-bold text-center ">Beach</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (5).png" alt="Pump">
+                                        <h5 class="fw-bold text-center ">Wild</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (6).png" alt="High heel sandal">
+                                        <h5 class="fw-bold text-center">Flat Sandal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane active" id="Wedding-Flats">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 text-center">
+                                        <img class="d-block mx-auto w-80" src="img/4 (1).png" alt="Stiletto">
+                                        <h5 class="fw-bold text-center ">Trainers</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (2).png" alt="Pump">
+                                        <h5 class="fw-bold text-center ">Tennis Shoes</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block mx-auto w-80" src="img/4 (3).png" alt="High heel sandal">
+                                        <h5 class="fw-bold text-center">Running shoes</h5>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                        </div>
+                    </div>
+            </div>
+
+        </section>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-    </script>
     <script src="lib/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

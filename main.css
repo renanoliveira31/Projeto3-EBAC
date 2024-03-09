@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .font {
     font-family: "Poppins", sans-serif;
 }
@@ -29,7 +33,7 @@ text-decoration-color: #E1FF30;
     text-align: justify;
 }
 
-#home .row span {
+#home .row span, #portifolio .row span {
     color: #E1FF30;
 }
 
@@ -68,3 +72,43 @@ font-weight: bold;
 .row button a:hover {
     color: #E1FF30;
 }
+
+.portp {
+    font-size: 4em;
+    color: white;
+}
+#portifolio ul li a {
+    border-color: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#portifolio ul li {
+    width: 15%;
+    text-align: center;
+}
+
+.link2 {
+    margin-left: 2em;
+    font-weight: bold;
+}
+
+.tab-content {
+    margin-left: 1.5em;
+}
+
+.tab-content p, .tab-content h5 {
+    color: white;
+}
+
+.nav-portifolio button {
+    border-color: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.nav-link:active {
+    background-color:#E1FF30; 
+    color: #fff;
+}
+
