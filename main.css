@@ -1,0 +1,40 @@
+.font {
+    font-family: "Poppins", sans-serif;
+}
+.font2 {
+    font-family: "Anton", sans-serif;
+}
+
+.fs {
+    font-size: 6em;
+}
+
+.row button{
+    color: white;
+}
+
+.row p {
+    text-align: justify;
+}
+
+#home .row span {
+    color: #E1FF30;
+}
+
+.row img {
+    width: 75%;
+    margin-bottom: 3em;
+    border-radius: 10px;
+}
+
+.row h2, h3 {
+    color: white;
+}
+
+#about > p {
+    color: white;
+}
+
+.fs2 {
+    font-size: 3.5em;
+}
