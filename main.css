@@ -9,6 +9,18 @@
     font-size: 6em;
 }
 
+.nav-item:hover {
+text-decoration-color: #E1FF30;
+}
+
+.nav li a{
+    color:white;
+}
+
+.nav li a:hover {
+    color: #E1FF30 !important; /* Usar !important para garantir que esta regra seja aplicada */
+}
+
 .row button{
     color: white;
 }
@@ -37,4 +49,22 @@
 
 .fs2 {
     font-size: 3.5em;
+}
+
+.carousel-inner img {
+    margin-left: 4.5em;
+}
+
+.row button:hover {
+color:#E1FF30;
+font-weight: bold;
+}
+
+.row button a {
+    text-decoration: none;
+    color: white;
+}
+
+.row button a:hover {
+    color: #E1FF30;
 }

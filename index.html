@@ -22,18 +22,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
-                <ul class="nav nav-underline d-block d-md-flex text-warning">
+                <ul class="nav nav-underline d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#home" class="nav-link active font text-light">Home</a>
+                        <a href="#home" class="nav-link active font">Home</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#about" class="nav-link font text-light">About Us</a>
+                        <a href="#about" class="nav-link font">About Us</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#portifolio" class="nav-link font text-light">Portifolio</a>
+                        <a href="#portifolio" class="nav-link font">Portifolio</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#contact" class="nav-link font text-light">Contact</a>
+                        <a href="#contact" class="nav-link font">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +46,8 @@
                     <div class="col-md-9 ml-2 mt-5 mb-5">
                         <h2 class="font2 fs text-light mb-5">UNLOCK <span class="d-block">YOUR STYLE</span></h2>
                         <p class="col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos exercitationem eaque numquam asperiores voluptatibus reiciendis culpa, distinctio mollitia repellendus nisi animi aperiam unde aut explicabo ullam esse incidunt non rerum.</p>
-                        <button type="button" class="btn bg-dark fw-bold mb-5">SHOP NOW</button>
+                        <button type="button" class="btn bg-dark fw-bold mb-5">
+                            <a href="#">SHOP NOW</a></button>
                     </div>
                 </div>
             </div>
@@ -55,19 +56,47 @@
             <div class="container">
                 <div class="row d-md-flex">
                     <div class="col-md-6 mt-3">
-                        <img src="img/sandalia.png" alt="sandalia na areia" class="img-fluid mt-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="img/sandalia.png" class="mt-4" alt="sandália1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/sandalia2.png" class="mt-4" alt="sandália2">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/sandalia3.png" class="mt-4" alt="sandália3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Próximo</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleControls" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="col-md-6 d-md-flex flex-column justify-content-center">
                         <p style="color: #E1FF30;">About Company</p>
                         <h2 class="fs2 d-block fw-bold" style="text-transform: uppercase;">Where <span style="color: #E1FF30;">Style</span> <span class="d-block"> Meets Comfort!</span></h2>
                         <div class="row">
                             <div class="col-md-6">
-                                <h3 class="section-title mt-3">Sobre <span class="text-colored">OUR MISSION</span></h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos quia eos culpa tempora inventore praesentium nisi cupiditate qui ut explicabo, mollitia, aliquam sunt sit voluptates quibusdam voluptatibus officia maiores!</p>
+                                <h3 class="section-title mt-3 fs-5 mb-2">OUR MISSION</h3>
+                                <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos quia eos culpa tempora inventore  qui ut explicabo, mollitia, aliquam sunt sit voluptates quibusdam voluptatibus officia maiores!</p>
+                                <button type="button" class="btn section-title fs-5 align-text-start p-0">Read More</button>
                             </div>
                             <div class="col-md-6">
-                                <h3 class="section-title mt-3">Sobre <span class="text-colored">OUR VISION</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt unde vel, laudantium debitis quis sit perferendis eum. Nihil ab, necessitatibus in culpa exercitationem quos aut vel quam architecto tempora?</p>
+                                <h3 class="section-title mt-3 fs-5 mb-2">OUR VISION</h3>
+                                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt unde vel, laudantium debitis quis sit perferendis eum. Nihil ab, necessitatibus in culpa exercitationem quos aut vel quam architecto tempora?</p>
+                                <button type="button" class="btn section-title fs-5 align-text-start p-0">Read More</button>
                             </div>
                         </div>
                     </div>
