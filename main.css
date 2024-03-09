@@ -2,10 +2,15 @@ body {
     overflow-x: hidden;
 }
 
+
+header img {
+    width: 10%;
+}
+
 .font {
     font-family: "Poppins", sans-serif;
 }
-.font2 {
+.font2, #contact h3 {
     font-family: "Anton", sans-serif;
 }
 
@@ -33,7 +38,7 @@ text-decoration-color: #E1FF30;
     text-align: justify;
 }
 
-#home .row span, #portifolio .row span {
+#home .row span, #portifolio .row span, .contactp  {
     color: #E1FF30;
 }
 
@@ -77,6 +82,10 @@ font-weight: bold;
     font-size: 4em;
     color: white;
 }
+
+#portifolio {
+    padding-bottom: 4em;
+}
 #portifolio ul li a {
     border-color: none;
     background-color: rgba(255, 255, 255, 0.1);
@@ -107,8 +116,56 @@ font-weight: bold;
     border-radius: 10px;
 }
 
-.nav-link:active {
-    background-color:#E1FF30; 
-    color: #fff;
+#contact {
+    background-color: #8173B2;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 6em;
 }
 
+
+#contact h3 {
+    font-size: 6em;
+}
+
+#contact .row {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+.contactdiv1{
+    margin-right: 4em;
+}
+
+#contact button {
+    border-radius: 50px;
+    background-color: #E1FF30;
+    color: black;
+    padding: 0.5em 2.5em;
+}
+
+form input, textarea{
+background-color:rgba(255, 255, 255, 0.2) !important;
+border-radius: 0px !important;
+border: none !important;
+}
+
+#contact h4 {
+    color: #E1FF30;
+    font-weight: bold;
+}
+
+#contact p {
+    text-align: justify;
+}
+
+#contact img {
+    width: 10%;
+    display: inline
+}
+
+footer {
+    background-color: #564594;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+}
