@@ -56,6 +56,11 @@ text-decoration-color: #E1FF30;
     color: white;
 }
 
+#about {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .fs2 {
     font-size: 3.5em;
 }
@@ -118,7 +123,7 @@ font-weight: bold;
 
 #contact {
     background-color: #8173B2;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 4px dotted rgba(255, 255, 255, 0.2);
     padding-bottom: 6em;
 }
 
@@ -168,4 +173,158 @@ footer {
 footer p {
     color: white;
     font-weight: bold;
+}
+
+@media (min-width:768px) and (max-width:1023.98px) {
+    #home p{
+    margin-left: 0em;
+    }
+    #home img{
+    width: fit-content;
+        }
+
+    #about {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    #about .carousel {
+        margin-top: 12em;
+    }
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 2.7em;
+    }
+
+    #contact form{
+        margin-top: 14.3em;
+    }
+}
+@media (min-width:426px) and (max-width:767.98px) {
+    body {
+        max-width: fit-content;
+    }
+    
+    .aboutp {
+        display: none;
+    }
+
+    #about {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 4.3em;
+    }
+
+    #portifolio button {
+        display: table-column;
+    }
+
+    #portifolio img {
+        width: 50%;
+    }
+
+    #portifolio h5 {
+        padding-bottom: 2em;
+        margin-top: -2em;
+        color: white;
+        font-weight: bold;
+    }
+    .portifoliop {
+        display: none;
+    }
+    #contact {
+        padding-right: 4em;
+    }
+
+    #contact form{
+        width:100%;
+    }
+    .contactp {
+        display: none;
+    }
+}
+
+@media (min-width:426px) and (max-width:550.98px) {
+    body {
+        max-width: fit-content;
+    }
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 3.5em;
+    }
+    .contactp {
+        display: none;
+    }
+}
+
+@media (max-width:426.98px) {
+    body {
+        max-width: fit-content;
+    }
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 3em;
+    }
+    .portifoliop {
+        display: none;
+    }
+    .contactp {
+        display: none;
+    }
+
+    #contact{
+        padding-right: 4em;
+    }
+}
+
+@media (min-width:320px) and (max-width:376.98px) {
+    body {
+        max-width: fit-content;
+    }
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 2.8em;
+    }
+    .portifoliop {
+        display: none;
+    }
+    .contactp {
+        display: none;
+    }
+}
+
+@media (max-width:319.98px) {
+    body {
+        max-width: fit-content;
+    }
+
+    .carousel img {
+        margin-right: 0em;
+        margin-left: 2.3em;
+    }
+
+    .portifoliop {
+        display: none;
+    }
+    .contactp {
+        display: none;
+    }
+    .aboutp {
+        display: none;
+    }
+    #about {
+        padding-bottom: 4em;
+    }
+
+    #portifolio img {
+        width: 75%;
+        padding-right: 1.5em;
+    }
+
+    .h4 {
+        font-size: small;
+    }
 }
